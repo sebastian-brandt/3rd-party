@@ -10,7 +10,7 @@
         <Summary>Synology Drive Client</Summary>
         <Description>Synology Drive Client is an application which sync files between your computers and Synology NAS via the Internet, so that your data and documents are always up-to-date and stay beside you.</Description>
         <License>Custom - https://www.synology.com/en-global/company/legal/terms_conditions</License>
-		<Archive sha1sum="5cde25ec1820c48adb8d3ed5bfec4805b77f7169" type="binary">https://global.download.synology.com/download/Tools/SynologyDriveClient/1.1.4-10580/Ubuntu/Installer/x86_64/synology-drive-10580.x86_64.deb</Archive>
+		<Archive sha1sum="2bc61c75c0730b2ab3b897cf8ec3fc584af825de" type="binary">https://global.download.synology.com/download/Utility/SynologyDriveClient/3.0.1-12667/Ubuntu/Installer/x86_64/synology-drive-client-12667.x86_64.deb</Archive>
         <BuildDependencies>
                 <Dependency>binutils</Dependency>
         </BuildDependencies>   
@@ -24,10 +24,10 @@
     </Package>
 
     <History>
-        <Update release="1">
-            <Date>06-17-2019</Date>
-            <Version>1.1.4.10580</Version>
-            <Comment>Initial inclusion.</Comment>
+        <Update release="2">
+            <Date>08-01-2021</Date>
+            <Version>3.0.1.12667</Version>
+            <Comment>Update for DSM 7 compatibility.</Comment>
             <Name>Sebastian Brandt</Name>
             <Email>seb-br@mailbox.org</Email>
         </Update>
